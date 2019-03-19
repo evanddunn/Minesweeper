@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>COMP426 Minsweeper</title>
+        <link rel="stylesheet" href='style.css'>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> 
+        <!-- <script type="text/javascript" src="jQuery.js"></script> -->
+        <script type="text/javascript" src="gameengine.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="game-container">
+            <div class="game-header">
+                <button class="reset-button" type="button">Reset</button>
+                <input step="1" type="number" min="8" max="30" class="height" placeholder="Height">
+                <input step="1" type="number" min="8" max="40" class="width" placeholder="Width">
+                <input step="1" type="number" min="1" max="1199" class="bombNum" placeholder="Number of Bombs">
+                <br>
+                <p class="face"><i class="far fa-smile-beam"></i></p>
+                <p class="timer">Time: 0</p>
+                <p class="highscore">Highscore: 0</p>
+                <p class="bombsleft">Bombs Left: </p>
+            </div>
+            <div class="game-body">
+
+            </div>
+        </div>
+    </body>
+</html>
