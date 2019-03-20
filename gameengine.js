@@ -1,6 +1,6 @@
 /*
- * Written by: Evan D Dunn      11/18/18
- * Summary:    Web-based minsweeper implementation using jQuery and JavaScript. 
+ * Written by: Evan D Dunn
+ * Description:    Web-based minsweeper implementation using jQuery and JavaScript. 
  */
 $(document).ready(function() {
 
